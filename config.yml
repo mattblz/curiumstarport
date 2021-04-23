@@ -5,6 +5,7 @@ accounts:
     coins: ["100000000ubnt"]
   - name: binance
     coins: ["50000000000ubnt"]
+    address: bluzelle1ngnz3snkjjgj57qc50sf7tecdetturyld7xqqq
 validator:
   name: vuser
   staked: "100000000ubnt"
