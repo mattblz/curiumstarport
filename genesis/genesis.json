@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-04-23T18:02:30.756306786Z",
+  "genesis_time": "2021-04-23T18:15:54.005661143Z",
   "chain_id": "curium",
   "initial_height": "1",
   "consensus_params": {
@@ -33,21 +33,21 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "bluzelle1xcdf9gndeq2crhe2ldldgyp976940mkvu4c2d6",
+          "address": "bluzelle13ud52lkgmupesquhe62ry33zzjq0her9r8tf7v",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "bluzelle1jk37f5kh6c09lclk6vtra9y3as2dptchar6wz3",
+          "address": "bluzelle1a4skzq0hsw7gaq2w6rjte93s9j5xd68fndepln",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "bluzelle1ngnz3snkjjgj57qc50sf7tecdetturyld7xqqq",
+          "address": "bluzelle1wlx6khzg8pnjyl9knpjmp8ktkzaas46wx06cxh",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -61,7 +61,16 @@
       },
       "balances": [
         {
-          "address": "bluzelle1xcdf9gndeq2crhe2ldldgyp976940mkvu4c2d6",
+          "address": "bluzelle1wlx6khzg8pnjyl9knpjmp8ktkzaas46wx06cxh",
+          "coins": [
+            {
+              "denom": "ubnt",
+              "amount": "50000000000"
+            }
+          ]
+        },
+        {
+          "address": "bluzelle13ud52lkgmupesquhe62ry33zzjq0her9r8tf7v",
           "coins": [
             {
               "denom": "ubnt",
@@ -70,20 +79,11 @@
           ]
         },
         {
-          "address": "bluzelle1jk37f5kh6c09lclk6vtra9y3as2dptchar6wz3",
+          "address": "bluzelle1a4skzq0hsw7gaq2w6rjte93s9j5xd68fndepln",
           "coins": [
             {
               "denom": "ubnt",
               "amount": "100000000"
-            }
-          ]
-        },
-        {
-          "address": "bluzelle1ngnz3snkjjgj57qc50sf7tecdetturyld7xqqq",
-          "coins": [
-            {
-              "denom": "ubnt",
-              "amount": "50000000000"
             }
           ]
         }
@@ -147,11 +147,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "bluzelle1xcdf9gndeq2crhe2ldldgyp976940mkvu4c2d6",
-                "validator_address": "bluzellevaloper1xcdf9gndeq2crhe2ldldgyp976940mkvucthgv",
+                "delegator_address": "bluzelle13ud52lkgmupesquhe62ry33zzjq0her9r8tf7v",
+                "validator_address": "bluzellevaloper13ud52lkgmupesquhe62ry33zzjq0her9r2c5m6",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "cvhUqxT5HvMTdj6J6nve6l+MTGg/HqCFepo/oUz4nrk="
+                  "key": "m3qjvIjX0oV+9sBIWePInanN6aAb5BdV75Ha4BGGg8c="
                 },
                 "value": {
                   "denom": "ubnt",
@@ -159,7 +159,7 @@
                 }
               }
             ],
-            "memo": "0074a3a0c7f90741e4879f6d528f093c5924fb14@10.0.0.208:26656",
+            "memo": "be48813ffddb88c5a806d5e3e29fecce845c59e2@10.0.0.208:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -169,7 +169,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "ApGOgc+94wMOGA+b3WEYNLDgmdelwJiYEsrJHH2lupPg"
+                  "key": "AjhG/IMK3/jhq17KMObt8dEh5FFHSKCBGwxtS/W9Mlf2"
                 },
                 "mode_info": {
                   "single": {
@@ -187,7 +187,7 @@
             }
           },
           "signatures": [
-            "TSwJJLTVjkyGF3s/foaJGe2V9AxJNf99CIV4BngozyoKRYv+oB5gs6/bVKChnJVHcUVctbcd5487v5RCMubNWg=="
+            "x1K21CpCM7Nt+FRMjia7v6Jt4STE4jzrZh1VgcJPL4YjWX3DaQN8VB8D8pOEfa7emP0rQWsV7jr2XULioXwqeA=="
           ]
         }
       ]
